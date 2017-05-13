@@ -4,7 +4,7 @@
 #define DEBUG_LEVEL 1
 #endif
 
-#include "debug.h"
+#include <Debug.h>
 #include <MemoryFree.h>
 #include <SPI.h>
 #include <Ethernet.h>
@@ -241,5 +241,4 @@ void setup()
   loop()
   Arduino main loop
   --------------------------------------------------------------------------------------*/
-void loop()
-{}
+void loop() {}
